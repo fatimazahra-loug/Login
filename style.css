@@ -1,0 +1,108 @@
+body{
+background-image: url('images/9019805.jpg');
+background-size: cover;
+}
+h1,h3{
+    text-align: center;
+    color: #0073B9;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, sans-serif;
+    margin-bottom: 20px;
+    text-shadow:0 0 30px #0073B9 ,
+    0 0 30px #01003A;
+}
+
+.bd{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 80vh;  
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px; 
+    border-radius: 10px; 
+    height: 80%;
+    width:25%;
+}
+.container h2{
+    text-align: center;
+    color: white ;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, sans-serif;
+    text-shadow: 0 0 5px white;
+}
+.l-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   position: relative;
+}
+input{
+    transition: opacity 0.6s ease ;
+}
+.c-input{
+    padding-top: 10px;
+    padding-left: 20px; 
+}
+.c-input:hover > :not(:hover){
+    opacity: 0.4;
+}
+.l-form input {
+    width: 90%;
+    margin-bottom: 30px; 
+    border-radius: 15px;
+    height: 35px;
+    font-family: 'Times New Roman', Times, sans-serif;
+    border-style:none;
+    text-indent: 10px;
+    box-shadow: 0 0 10px #01003A;
+}
+.l-form input:focus {
+    outline:none;
+    box-shadow: 0 0 20px black;
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.l-form ::placeholder{
+     padding-left: 5px;
+}
+.l-form button{
+    border-radius: 40px;
+    background-color: #01003A;
+    height: 40px;
+    width: 170px;
+    border: none;
+    color:white;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 15px;
+    box-shadow: 0 0 2px white;
+}
+.l-form button:focus{
+    box-shadow: 0 0 10px white;
+}
+.icon{
+    position: absolute;
+    bottom: -115px; 
+    left: -25px; 
+    width: 70px; 
+    transform: rotate(-10deg);
+    filter: brightness(0) invert(1);
+}
+.icon2{
+    position: absolute;
+    top: -105px; 
+    left: 170px; 
+    width: 160px; 
+}
+.fa-eye{
+    position: absolute;
+    top:48%;
+    right: 12%;
+    cursor: pointer;
+    color: lightgray;
+}
+
